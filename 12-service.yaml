@@ -1,4 +1,4 @@
-kind: service
+kind: Service
 apiVersion: v1
 metadata:
   name: nginx
@@ -11,4 +11,4 @@ spec:
   - name: nginx-svc-port
     protocol: TCP
     port: 80 # service port
-    targetport: 80 # container port
+    targetPort: 80 # container port
