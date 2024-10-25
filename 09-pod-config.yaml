@@ -10,8 +10,8 @@ spec:
     - name: course
       valueFrom:
         configMapKeyRef:
-          name: nginx-config # name of the config map you are refering to
-          key: course # env.name and config map can be different 
+          name: nginx-config # name of the config map you are reffering to
+          key: course # env.name and config map key name can be different 
     - name: duration
       valueFrom:
         configMapkeyRef: 
