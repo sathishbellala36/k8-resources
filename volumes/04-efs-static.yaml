@@ -37,7 +37,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    volumeMounts: # docker run -v hostpath:container path
+    volumeMounts: # docker run -v hostpath:containerpath
     - name: expense-efs
       mountPath: /usr/share/nginx/html
   volumes:
@@ -59,4 +59,4 @@ spec:
     protocol: TCP
     port: 80 # service port
     targetPort: 80 # container port
-    nodeport: 30007
+    nodePort: 30007
