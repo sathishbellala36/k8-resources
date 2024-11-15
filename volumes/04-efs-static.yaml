@@ -25,4 +25,4 @@ spec:
   storageClassName: ""
   resources:
     requests:
-      storage: 5Giu 
+      storage: 5Gi
